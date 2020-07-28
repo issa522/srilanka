@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/feedback.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <title>Travel Sri-Lanka - FeedbackForm</title>
+    <script src="../js/feedback.js"></script>
+</head>
+<body>
+<!-- Header -->
+<section id="header">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                <a href="#hero"><h1><span>T</span>ravel   <span>S</span>ri - <span>L</span>anka</h1></a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger"><div class="bar"></div></div>
+                <ul>
+                    <li><a href="../index.html" data-after="Home">Home</a></li>
+                    <li><a href="#" data-after="Gallery">Gallery</a></li>
+                    <li><a href="#" data-after="Contact">Contact</a></li>
+                    <li><a href="../html/feedback.html" data-after="Feedback">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Header -->
+
+<!-- start of form -->
+<div class="fd">
+
+    <h1 class="heading"><span>F</span>eedback  <span>F</span>orm</h1>
+
+    <div class="wrapper">
+
+        <!-- COMPANY INFORMATION -->
+        <div class="company-info">
+            <ul>
+                <li> 44 Main Street, Colombo 04</li><br>
+                <li> (+94) 112 - 000 000</li><br>
+                <li> travelsrilanka@gmail.com</li><br>
+            </ul>
+        </div>
+        <!-- End .company-info -->
+
+        <!-- CONTACT FORM -->
+        <div class="contact">
+            <form id="contact-form" onsubmit="return validateForm()">
+
+                <p>
+                    <label>First Name</label>
+                    <input type="text" name="name" id="cname1" required>
+                </p>
+
+                <p>
+                    <label>Last Name</label>
+                    <input type="text" name="name" id="cname2" required>
+                </p>
+
+                <p>
+                    <label>E-mail Address</label>
+                    <input type="email" name="email" id="mail" required>
+                </p>
+
+                <p>
+                    <label>Phone Number</label>
+                    <input type="text" name="phone" id="number" required>
+                </p>
+
+                <p class="full">
+                    <label>Message</label>
+                    <textarea name="message" rows="5" id="comment" required></textarea>
+                </p>
+
+                <p class="full">
+                    <button type="submit">Submit</button>
+                </p>
+
+            </form>
+            <!-- End #contact-form -->
+        </div>
+        <!-- End .contact -->
+
+    </div>
+    <!-- End .wrapper -->
+</div>
+<!-- End .container -->
+
+<!--End of form -->
+
+
+<!-- Footer -->
+<section id="footer">
+    <div class="footer container">
+        <div class="brand"><h1><span>T</span>ravel   <span>S</span>ri - <span>L</span>anka</h1></div>
+        <h2>Get to the heart of Sri Lanka</h2>
+        <div class="social-icon">
+            <div class="social-item">
+                <a href="#" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+            </div>
+            <div class="social-item">
+                <a href="#" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+            </div>
+            <div class="social-item">
+                <a href="#" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/youtube.png"/></a>
+            </div>
+        </div>
+        <p>Copyright © 2020 </p>
+        <p>Travel Sri - Lanka</p>
+        <p> All rights reserved</p>
+    </div>
+</section>
+<!-- End Footer -->
+
+<script src="../js/script.js"></script>
+</body>
+</html>
